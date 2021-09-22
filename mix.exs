@@ -29,6 +29,7 @@ defmodule Brixx.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
@@ -40,7 +41,7 @@ defmodule Brixx.MixProject do
       links: %{
         "Github" => "https://github.com/brixx-ui/brixx"
       },
-      files: ~w(lib priv mix.exs README.md)
+      files: ~w(lib mix.exs README.md)
     ]
   end
 
